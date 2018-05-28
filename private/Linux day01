@@ -1,0 +1,39 @@
+内核功能
+	1.系统调用接口（System call interface)
+	2.程序管理（Process contorl)
+	3.内存管理（Memory management)
+	4.文件系统管理（Filesystem mangetment）例如：数据的输入输出（I/O）等工作。还有不同文件格式的支持等。
+	5.设备驱动（Device diver）
+计算机定义：接受用户输入指令与数据，经由中央处理器的数据与逻辑单元运算处理之后，以产生或存储有用的信息。
+
+计算机五大单元：输入，输出，CPU内部的控制单元，算术逻辑单元与内存五大部分。
+
+一般主板芯片分为南桥和北桥，北桥的总线成为系统总线，因为内存传输的主要信道，所以速度快。南桥就是所谓的输入/输出（I/O）线。主要用于联系硬盘，USB，网卡等接口设备。
+
+北桥支持的频率为前端系统总线（Front Side Bus，FSB），而每次传送的位数则是总线宽度。
+
+个人计算机的内存主要组件为动态随机访问内存（Dynamic Random Access Memory，DRAM），至于CPU内部的第二层缓存则使用静态随机访问内存（Static Random Access Memory，SRAM）
+
+(msconfig  msinfo32)查看物理设备信息
+
+Linus Torvalds 托瓦兹
+
+distributions 版本	分时操作系统（Compatible Time-Shareing System，CTSS）
+
+Emacs编辑器  GUN C Compiler(GCC) 这个编辑器在用户编写程序的过程中就进行程序语法的检验。   C函数库（GNU C Library)
+强调：Emacs 是一个很棒的“编辑器（editor)”而非"编译器(compiler)",可以很快显示出你写入的语法可能有错误的地方。
+GNU开发所使用的几个主要软件
+※Emacs
+※GNU C(GCC)
+※GNU C Library(GLIBC)
+※Bash shell
+
+Apache License(许可）Apache是一种网页服务器软件。
+Open source 与Close source 区别：
+	一个释放源码，Close source的程序仅推出可执行的二进制程序。	Copyright（商业软件）
+	
+POSIX
+	POSIX表示可移植操作系统接口（Portable Operating System Interface of UNIX，缩写为 POSIX ），POSIX标准定义了操作系统应该为应用程序提供的接口标准，是IEEE为要在各种UNIX操作系统上运行的软件而定义的一系列API标准的总称，其正式称呼为IEEE 1003，而国际标准名称为ISO/IEC 9945。
+	POSIX标准意在期望获得源代码级别的软件可移植性。换句话说，为一个POSIX兼容的操作系统编写的程序，应该可以在任何其它的POSIX操作系统（即使是来自另一个厂商）上编译执行。
+	POSIX 并不局限于 UNIX。许多其它的操作系统，例如 DEC OpenVMS 支持 POSIX 标准，尤其是 IEEE Std. 1003.1-1990（1995 年修订）或 POSIX.1，POSIX.1 提供了源代码级别的 C 语言应用编程接口（API）给操作系统的服务程序，例如读写文件。POSIX.1 已经被国际标准化组织（International Standards Organization，ISO）所接受，被命名为 ISO/IEC 9945-1:1990 标准。
+
