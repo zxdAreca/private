@@ -1,0 +1,31 @@
+内核功能
+	1.系统调用接口（System call interface)
+	2.程序管理（Process contorl)
+	3.内存管理（Memory management)
+	4.文件系统管理（Filesystem mangetment）例如：数据的输入输出（I/O）等工作。还有不同文件格式的支持等。
+	5.设备驱动（Device diver）
+计算机定义：接受用户输入指令与数据，经由中央处理器的数据与逻辑单元运算处理之后，以产生或存储有用的信息。
+
+计算机五大单元：输入，输出，CPU内部的控制单元，算术逻辑单元与内存五大部分。
+
+一般主板芯片分为南桥和北桥，北桥的总线成为系统总线，因为内存传输的主要信道，所以速度快。南桥就是所谓的输入/输出（I/O）线。主要用于联系硬盘，USB，网卡等接口设备。
+
+北桥支持的频率为前端系统总线（Front Side Bus，FSB），而每次传送的位数则是总线宽度。
+
+个人计算机的内存主要组件为动态随机访问内存（Dynamic Random Access Memory，DRAM），至于CPU内部的第二层缓存则使用静态随机访问内存（Static Random Access Memory，SRAM）
+
+(msconfig  msinfo32)查看物理设备信息
+
+Linus Torvalds 托瓦兹
+
+distributions 版本	分时操作系统（Compatible Time-Shareing System，CTSS）
+
+Emacs编辑器  GUN C Compiler(GCC) 这个编辑器在用户编写程序的过程中就进行程序语法的检验。   C函数库（GNU C Library)
+强调：Emacs 是一个很棒的“编辑器（editor)”而非"编译器(compiler)",可以很快显示出你写入的语法可能有错误的地方。
+GNU开发所使用的几个主要软件
+※Emacs
+※GNU C(GCC)
+※GNU C Library(GLIBC)
+※Bash shell
+
+
